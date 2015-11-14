@@ -1,4 +1,4 @@
-# legend of microservices
+# legend of microservices [![Build Status](https://travis-ci.org/gernest/legend.svg)](https://travis-ci.org/gernest/legend)
 
 Mircoservice architechture exaplained with golang.
 
