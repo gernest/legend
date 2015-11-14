@@ -3,7 +3,7 @@
 Mircoservice architechture exaplained with golang.
 
 
-# TL:DR
+# NOTE: This i still under heavy construction, stay safe and don't try this.
 Things covered
 
 * service isolation
