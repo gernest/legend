@@ -16,13 +16,10 @@ var (
 	mu   sync.Mutex
 )
 
-func init() {
-	data = make(map[string][]byte)
-}
-
 type DB struct{}
 
 func (d *DB) Init(ctx context.Context, id string) error {
+	data = make(map[string][]byte)
 	return nil
 }
 

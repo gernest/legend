@@ -7,7 +7,7 @@ import (
 var cfg = &config{}
 
 type config struct {
-	mu   sync.Mutex
+	mu   sync.RWMutex
 	data map[interface{}]interface{}
 }
 
@@ -18,9 +18,10 @@ func (c *config) set(key, val interface{}) {
 }
 
 func (c *config) get(key interface{}) interface{} {
-	c.mu.Lock()
-	defer c.mu.Unlock()
-	return c.data[key]
+	c.mu.RLock()
+	data := c.data[key]
+	c.mu.RUnlock()
+	return data
 }
 
 func Set(key interface{}, value interface{}) {

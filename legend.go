@@ -43,14 +43,6 @@ func Boot() {
 func HomePage(w http.ResponseWriter, r *http.Request) {
 }
 
-func NewUser(w http.ResponseWriter, r *http.Request) {
-
-}
-
 func Tweet(w http.ResponseWriter, r *http.Request) {
-
-}
-
-func Users(w http.ResponseWriter, r *http.Request) {
 
 }
