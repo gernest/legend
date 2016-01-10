@@ -29,6 +29,7 @@ any programming language.
 # Things to be covered
 
 * microservice
+* microservice archtecture
 * service isolation
 * service discovery
 * service configuration
@@ -36,5 +37,33 @@ any programming language.
 * restful APIs
 * service registry
 * service scaling
+
+
+# Prerequisite
+
+To follow allong with the code present in this text, you need
+
+* Go( Any version will just do fine)
+* A brave heart ( This is "A bridge too far" )
+
+# Here is where the story begins
+
+## Microsevices
+
+As the legends say, whenever you hear the term "Enterprise" know dark days are
+ahead of you. Microservice is just a service the rest is buzzwords, and the
+micro part of microservice is also a marketing thing. You bare with me, I will
+tell you why instead of using microservices I prefer to use web service to imply
+the microservice( as we know it).
+
+Web services have been around for a while, and somewhere along the line someone
+re branded them by giving them a shiny new name "Microservice". A web
+service is just a service running on the web and using web technologies to serve
+its purpose( i.e http,rpc,  json, html etc...).
+
+### Microservice architechture
+
+This is a design pattern for a web application where by the main application
+relies on external web services to accomplish its intended purpose.
 
 
